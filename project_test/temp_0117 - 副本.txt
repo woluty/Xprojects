@@ -1,0 +1,1455 @@
+*************************** 1. row ***************************
+ Thread_id_Handler: 0x7f869c8fc000
+           User_id: 386985
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:54953
+     Executing SQL: load data local infile '/data1/expLoadData/BASS2.STAT_quanqt_change_MONITOR_DETAIL_MS.del' into table BASS2.STAT_quanqt_change_MONITOR_DETAIL_MS fields terminated by '$' enclosed by '"' lines terminated by '\n' (OP_TIME,PRODUCT_NO,USER_NAME,CITY_NAME,COUNTY_NAME,REGION_NAME,PLAN_NAME,VPLAN_LEVEL,PROMO_PLAN_NAME,ARPU_9,FLOW_ARPU_9,CALL_ARPU_9,OTHER_ARPU_9,MOU_9,DOU_9,PLAN_NAME_NOW,PLAN_ID,CUXIAO_NAME,CUXIAO_ID,YUYIN_NAME,YUYIN_ID,ARPU,FLOW_ARPU,CALL_ARPU,OTHER_ARPU,MOU,DOU,IF_BUXIANLIANG)
+Executing time(ms): 57724701
+     Working State: none
+        Login time: 2019-1-17 2:34:38
+    using_conn_num: 1
+      net_in(Byte): 566
+     net_out(Byte): 1345
+        Cluster id: 3
+*************************** 2. row ***************************
+ Thread_id_Handler: 0x7f43726fe000
+           User_id: 387259
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:14970
+     Executing SQL: load data local infile '/data1/expLoadData/bass2.stat_mms_broadband_optimize.del' into table bass2.stat_mms_broadband_optimize fields terminated by '$' enclosed by '"' lines terminated by '\n' (FLAG,OP_TIME,CITY_ID,CITY_NAME,KPI_VALUES,KPI_VALUES_LS_M,KPI_VALUES_LS_Y,KPI_VALUES_HB,KPI_VALUES_TB)
+Executing time(ms): 57393680
+     Working State: none
+        Login time: 2019-1-17 2:40:9
+    using_conn_num: 1
+      net_in(Byte): 370
+     net_out(Byte): 1336
+        Cluster id: 3
+*************************** 3. row ***************************
+ Thread_id_Handler: 0x7f446177f000
+           User_id: 387648
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:48525
+     Executing SQL: delete from bass2.stat_market_4gkehudaoda where op_time='2018-12-23'
+Executing time(ms): 57107950
+     Working State: none
+        Login time: 2019-1-17 2:44:55
+    using_conn_num: 1
+      net_in(Byte): 1028
+     net_out(Byte): 2612
+        Cluster id: 3
+*************************** 4. row ***************************
+ Thread_id_Handler: 0x7f5fcf96c000
+           User_id: 400440
+        Cur_schema: information_schema
+         User_info: xizanguser@10.252.32.146:40744
+     Executing SQL: CREATE TABLE BASS2.STAT_MARKET_0419_DETAIL_DAY  (
+                  OP_TIME DATETIME , 
+                  CITY_ID VARCHAR(20) , 
+                  COUNTY_ID VARCHAR(20) , 
+                  REGION_ID VARCHAR(20) , 
+                  VILLAGE_ID VARCHAR(200) , 
+                  STREET_ID VARCHAR(200) , 
+                  PRODUCT_NO VARCHAR(20) , 
+                  USERLEVEL_NAME VARCHAR(20) , 
+                  USERSTATUS_NAME VARCHAR(20) , 
+                  STOPSTAUS_NAME VARCHAR(20) , 
+                  IS_XZUSER VARCHAR(20) , 
+                  NATION VARCHAR(20) , 
+                  LOCNTYPE_NAME VARCHAR(20) , 
+                  USETYPE_NAME VARCHAR(20) , 
+                  IS_ENTUSER VARCHAR(20) , 
+                  IS_IMPENTUSER VARCHAR(20) , 
+                  ENTERPRISE_NAME VARCHAR(200) , 
+                  MANAGER_NAME VARCHAR(100) , 
+                  CREATE_DATE DATETIME , 
+                  ONLINE_MON SMALLINT , 
+                  MUL_TOLL_JIFEN BIGINT , 
+                  MUL_TOLL_JIFEN1 DECIMAL(14,3) , 
+                  MUL_XINZ_JIFEN BIGINT , 
+                  MUL_XINZ_JIFEN1 DECIMAL(14,3) , 
+                  MUL_ZENGS_JIFEN BIGINT , 
+                  MUL_XIAOH_JIFEN BIGINT , 
+                  TONGFU VARCHAR(20) , 
+                  TMANYOU VARCHAR(20) , 
+                  CURMON_ARPU DECIMAL(14,2) , 
+                  LSTMON_THREE_ARPU DECIMAL(14,2) , 
+                  CURMON_FLOW_ARPU DECIMAL(14,2) , 
+                  LSTM
+Executing time(ms): 34831182
+     Working State: none
+        Login time: 2019-1-17 8:56:12
+    using_conn_num: 0
+      net_in(Byte): 1334
+     net_out(Byte): 1182
+        Cluster id: 3
+*************************** 5. row ***************************
+ Thread_id_Handler: 0x7f869c9db000
+           User_id: 401223
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54604
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33600076
+     Working State: none
+        Login time: 2019-1-17 9:16:43
+    using_conn_num: 3
+      net_in(Byte): 54
+     net_out(Byte): 31439404
+        Cluster id: 3
+*************************** 6. row ***************************
+ Thread_id_Handler: 0x7f43727c3000
+           User_id: 401225
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54606
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33596778
+     Working State: none
+        Login time: 2019-1-17 9:16:46
+    using_conn_num: 3
+      net_in(Byte): 54
+     net_out(Byte): 31439404
+        Cluster id: 3
+*************************** 7. row ***************************
+ Thread_id_Handler: 0x7f5fcf980000
+           User_id: 401264
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54610
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33532543
+     Working State: none
+        Login time: 2019-1-17 9:17:50
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 25349870
+        Cluster id: 3
+*************************** 8. row ***************************
+ Thread_id_Handler: 0x7f40b97d3000
+           User_id: 401266
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54612
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33529760
+     Working State: none
+        Login time: 2019-1-17 9:17:53
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 25349870
+        Cluster id: 3
+*************************** 9. row ***************************
+ Thread_id_Handler: 0x7f869afa0000
+           User_id: 401375
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:52124
+     Executing SQL: 
+ 
+/*#插入每日数据*/
+delete from  bass2.stat_market_4gcharge_4 where op_date='2018-12-23'
+Executing time(ms): 33356613
+     Working State: none
+        Login time: 2019-1-17 9:20:46
+    using_conn_num: 1
+      net_in(Byte): 1809
+     net_out(Byte): 2986
+        Cluster id: 3
+*************************** 10. row ***************************
+ Thread_id_Handler: 0x7f437269d000
+           User_id: 401537
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54734
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33059271
+     Working State: none
+        Login time: 2019-1-17 9:25:43
+    using_conn_num: 1
+      net_in(Byte): 73
+     net_out(Byte): 17029691
+        Cluster id: 3
+*************************** 11. row ***************************
+ Thread_id_Handler: 0x7f40b958e000
+           User_id: 401538
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54736
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33059230
+     Working State: none
+        Login time: 2019-1-17 9:25:43
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028202
+        Cluster id: 3
+*************************** 12. row ***************************
+ Thread_id_Handler: 0x7f40b94da000
+           User_id: 401539
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54738
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33059225
+     Working State: none
+        Login time: 2019-1-17 9:25:43
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028202
+        Cluster id: 3
+*************************** 13. row ***************************
+ Thread_id_Handler: 0x7f40b9563000
+           User_id: 401540
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54740
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33059203
+     Working State: none
+        Login time: 2019-1-17 9:25:43
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028202
+        Cluster id: 3
+*************************** 14. row ***************************
+ Thread_id_Handler: 0x7f40b94d4000
+           User_id: 401541
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54742
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 33059189
+     Working State: none
+        Login time: 2019-1-17 9:25:44
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028202
+        Cluster id: 3
+*************************** 15. row ***************************
+ Thread_id_Handler: 0x7f80efd19000
+           User_id: 402239
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54852
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 32687354
+     Working State: none
+        Login time: 2019-1-17 9:31:55
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028118
+        Cluster id: 3
+*************************** 16. row ***************************
+ Thread_id_Handler: 0x7f44617c1000
+           User_id: 402274
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54858
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 32624614
+     Working State: none
+        Login time: 2019-1-17 9:32:58
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028118
+        Cluster id: 3
+*************************** 17. row ***************************
+ Thread_id_Handler: 0x7f43724c2000
+           User_id: 402278
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54860
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 32622344
+     Working State: none
+        Login time: 2019-1-17 9:33:0
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028124
+        Cluster id: 3
+*************************** 18. row ***************************
+ Thread_id_Handler: 0x7f437264e000
+           User_id: 402282
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54861
+     Executing SQL: ALTER table bass2.DATA_PRODUCT_TAG MODIFY COLUMN TAG_ID varchar(32)
+Executing time(ms): 32085943
+     Working State: none
+        Login time: 2019-1-17 9:33:6
+    using_conn_num: 1
+      net_in(Byte): 1197
+     net_out(Byte): 241501
+        Cluster id: 3
+*************************** 19. row ***************************
+ Thread_id_Handler: 0x7f5fcf9e0000
+           User_id: 402422
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40796
+     Executing SQL: truncate table NG_DATA_PRODUCT_ALL_DS
+Executing time(ms): 32378913
+     Working State: none
+        Login time: 2019-1-17 9:37:4
+    using_conn_num: 15
+      net_in(Byte): 111
+     net_out(Byte): 1407
+        Cluster id: 3
+*************************** 20. row ***************************
+ Thread_id_Handler: 0x7f5fb0c2c000
+           User_id: 402433
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40824
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190110
+Executing time(ms): 32373663
+     Working State: none
+        Login time: 2019-1-17 9:37:9
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 3
+*************************** 21. row ***************************
+ Thread_id_Handler: 0x7f80efce2000
+           User_id: 402435
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40832
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190107
+Executing time(ms): 32373348
+     Working State: none
+        Login time: 2019-1-17 9:37:9
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 3
+*************************** 22. row ***************************
+ Thread_id_Handler: 0x7f4372682000
+           User_id: 402790
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58203
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 12413473
+     Working State: none
+        Login time: 2019-1-17 9:48:30
+    using_conn_num: 1
+      net_in(Byte): 1251
+     net_out(Byte): 13423598
+        Cluster id: 3
+*************************** 23. row ***************************
+ Thread_id_Handler: 0x7f63878a4000
+           User_id: 402794
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:59452
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 25850519
+     Working State: none
+        Login time: 2019-1-17 9:48:35
+    using_conn_num: 1
+      net_in(Byte): 360
+     net_out(Byte): 17030032
+        Cluster id: 3
+*************************** 24. row ***************************
+ Thread_id_Handler: 0x7f5fcfb6d000
+           User_id: 406080
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58220
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 26585753
+     Working State: none
+        Login time: 2019-1-17 11:13:37
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028115
+        Cluster id: 3
+*************************** 25. row ***************************
+ Thread_id_Handler: 0x7f638789e000
+           User_id: 406467
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:60936
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 12079724
+     Working State: none
+        Login time: 2019-1-17 11:25:56
+    using_conn_num: 1
+      net_in(Byte): 188
+     net_out(Byte): 13420105
+        Cluster id: 3
+*************************** 26. row ***************************
+ Thread_id_Handler: 0x7f437276b000
+           User_id: 407647
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:64713
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 24487716
+     Working State: none
+        Login time: 2019-1-17 11:48:35
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17028089
+        Cluster id: 3
+*************************** 27. row ***************************
+ Thread_id_Handler: 0x7f869cf29000
+           User_id: 409736
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:58530
+     Executing SQL: delete from bass2.stat_enterprise_4g_user_detail_2018 where op_time='2018-12-23'
+Executing time(ms): 20904399
+     Working State: none
+        Login time: 2019-1-17 12:48:18
+    using_conn_num: 15
+      net_in(Byte): 1219
+     net_out(Byte): 2167
+        Cluster id: 3
+*************************** 28. row ***************************
+ Thread_id_Handler: 0x7f43726d2000
+           User_id: 409738
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:26803
+     Executing SQL: delete from bass2.stat_market_jiari_liuliang_huizong where op_time='2018-12-23'
+Executing time(ms): 20904023
+     Working State: none
+        Login time: 2019-1-17 12:48:19
+    using_conn_num: 1
+      net_in(Byte): 1039
+     net_out(Byte): 2612
+        Cluster id: 3
+*************************** 29. row ***************************
+ Thread_id_Handler: 0x7f6387896000
+           User_id: 410582
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:28989
+     Executing SQL: delete from bass2.stat_market_vgop_18218_day where op_time='2018-12-23'
+Executing time(ms): 19383786
+     Working State: none
+        Login time: 2019-1-17 13:13:39
+    using_conn_num: 1
+      net_in(Byte): 1210
+     net_out(Byte): 2011
+        Cluster id: 3
+*************************** 30. row ***************************
+ Thread_id_Handler: 0x7f601a7b0000
+           User_id: 410645
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:29755
+     Executing SQL: delete from bass2.stat_market_dianziqudao_tcxs_huizong where op_time='2018-12-01'
+Executing time(ms): 19316780
+     Working State: none
+        Login time: 2019-1-17 13:14:46
+    using_conn_num: 1
+      net_in(Byte): 1220
+     net_out(Byte): 2011
+        Cluster id: 3
+*************************** 31. row ***************************
+ Thread_id_Handler: 0x7f408175a000
+           User_id: 410667
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:51084
+     Executing SQL: drop table bass2.ST_VGOP4_ADDOPTLOSS_ZYYWTJKH_OUTPUT_201812
+Executing time(ms): 19296374
+     Working State: none
+        Login time: 2019-1-17 13:15:6
+    using_conn_num: 3
+      net_in(Byte): 1282
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 32. row ***************************
+ Thread_id_Handler: 0x7f408176b000
+           User_id: 410669
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.28:47871
+     Executing SQL: drop table bass2.ST_VGOP4_OPEFFECT_YYXLPGZB_OUTPUT_201812
+Executing time(ms): 19295720
+     Working State: none
+        Login time: 2019-1-17 13:15:7
+    using_conn_num: 3
+      net_in(Byte): 1278
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 33. row ***************************
+ Thread_id_Handler: 0x7f4081776000
+           User_id: 410670
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:64362
+     Executing SQL: drop table bass2.ST_VGOP4_OPEFFECT_YYXLPGZB4_OUTPUT_201812
+Executing time(ms): 19295488
+     Working State: none
+        Login time: 2019-1-17 13:15:7
+    using_conn_num: 3
+      net_in(Byte): 1280
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 34. row ***************************
+ Thread_id_Handler: 0x7f40817a5000
+           User_id: 410675
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:64424
+     Executing SQL: drop table bass2.ST_VGOP4_ADDOPTLOSS_YJMBYTJYW_OUTPUT_201812
+Executing time(ms): 19291685
+     Working State: none
+        Login time: 2019-1-17 13:15:11
+    using_conn_num: 3
+      net_in(Byte): 1284
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 35. row ***************************
+ Thread_id_Handler: 0x7f40817b5000
+           User_id: 410677
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.35:46164
+     Executing SQL: drop table BASS2.ST_VGOP_ADD_SERV_PREF_RECOG_OUTPUT_201812
+Executing time(ms): 19289203
+     Working State: none
+        Login time: 2019-1-17 13:15:13
+    using_conn_num: 3
+      net_in(Byte): 1280
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 36. row ***************************
+ Thread_id_Handler: 0x7f6068374000
+           User_id: 410684
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.38.184:53586
+     Executing SQL: drop table bass2.sub_flow_product_plan_offer_item_201812
+Executing time(ms): 19284041
+     Working State: none
+        Login time: 2019-1-17 13:15:19
+    using_conn_num: 3
+      net_in(Byte): 1276
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 37. row ***************************
+ Thread_id_Handler: 0x7f601a78a000
+           User_id: 410723
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.28:48213
+     Executing SQL: truncate table bass2.DW_SR_SERVICE_REQUEST_TYPE_201812
+Executing time(ms): 19234637
+     Working State: none
+        Login time: 2019-1-17 13:16:8
+    using_conn_num: 15
+      net_in(Byte): 1193
+     net_out(Byte): 2143
+        Cluster id: 3
+*************************** 38. row ***************************
+ Thread_id_Handler: 0x7f40b96f4000
+           User_id: 410781
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:52330
+     Executing SQL: truncate table bass2.DW_SR_PROBLEM_PROCESS_201812
+Executing time(ms): 19185402
+     Working State: none
+        Login time: 2019-1-17 13:16:57
+    using_conn_num: 15
+      net_in(Byte): 1188
+     net_out(Byte): 2143
+        Cluster id: 3
+*************************** 39. row ***************************
+ Thread_id_Handler: 0x7f40b973d000
+           User_id: 410788
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:30993
+     Executing SQL: truncate table bass2.group_msg_ds_sms
+Executing time(ms): 19178436
+     Working State: none
+        Login time: 2019-1-17 13:17:4
+    using_conn_num: 1
+      net_in(Byte): 1176
+     net_out(Byte): 2011
+        Cluster id: 3
+*************************** 40. row ***************************
+ Thread_id_Handler: 0x7f5fb0f2a000
+           User_id: 410867
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:53226
+     Executing SQL: load data local infile '/data1/expLoadData/bass2.stat_network_0024.del' into table bass2.stat_network_0024 fields terminated by '$' enclosed by '"' lines terminated by '\n' (OP_TIME,S_INDEX_ID,CITY_ID0,CITY_ID1,CITY_ID2,CITY_ID3,CITY_ID4,CITY_ID5,CITY_ID6,CITY_ID7)
+Executing time(ms): 19106862
+     Working State: none
+        Login time: 2019-1-17 13:18:16
+    using_conn_num: 1
+      net_in(Byte): 339
+     net_out(Byte): 1326
+        Cluster id: 3
+*************************** 41. row ***************************
+ Thread_id_Handler: 0x7f5f6b8b3000
+           User_id: 410876
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.36.187:11403
+     Executing SQL: drop table BASS2.SUB_SELF_BUSI_CALL_DT_20181223
+Executing time(ms): 19099799
+     Working State: none
+        Login time: 2019-1-17 13:18:23
+    using_conn_num: 3
+      net_in(Byte): 1258
+     net_out(Byte): 3088
+        Cluster id: 3
+*************************** 42. row ***************************
+ Thread_id_Handler: 0x7f4461472000
+           User_id: 413250
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58155
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 15095861
+     Working State: none
+        Login time: 2019-1-17 14:25:7
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17010388
+        Cluster id: 3
+*************************** 43. row ***************************
+ Thread_id_Handler: 0x7f40b96fc000
+           User_id: 413253
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58166
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 15091262
+     Working State: none
+        Login time: 2019-1-17 14:25:11
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17010376
+        Cluster id: 3
+*************************** 44. row ***************************
+ Thread_id_Handler: 0x7f6080c50000
+           User_id: 415223
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:52470
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 12082368
+     Working State: none
+        Login time: 2019-1-17 15:15:20
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 13415478
+        Cluster id: 3
+*************************** 45. row ***************************
+ Thread_id_Handler: 0x7f6076fc3000
+           User_id: 415449
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:34083
+     Executing SQL: delete from bass2.new_kpi_values_v2_day where op_time='2018-12-23'
+Executing time(ms): 11650309
+     Working State: none
+        Login time: 2019-1-17 15:22:32
+    using_conn_num: 15
+      net_in(Byte): 1205
+     net_out(Byte): 2167
+        Cluster id: 3
+*************************** 46. row ***************************
+ Thread_id_Handler: 0x7f4461462000
+           User_id: 416597
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:57574
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 10380778
+     Working State: none
+        Login time: 2019-1-17 15:43:42
+    using_conn_num: 0
+      net_in(Byte): 54
+     net_out(Byte): 13369751
+        Cluster id: 3
+*************************** 47. row ***************************
+ Thread_id_Handler: 0x7f6080c2c000
+           User_id: 416665
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58034
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 8061036
+     Working State: none
+        Login time: 2019-1-17 15:45:52
+    using_conn_num: 0
+      net_in(Byte): 828
+     net_out(Byte): 10148685
+        Cluster id: 3
+*************************** 48. row ***************************
+ Thread_id_Handler: 0x7f6080c5e000
+           User_id: 417372
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58640
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 8759513
+     Working State: none
+        Login time: 2019-1-17 16:8:17
+    using_conn_num: 0
+      net_in(Byte): 290
+     net_out(Byte): 10028500
+        Cluster id: 3
+*************************** 49. row ***************************
+ Thread_id_Handler: 0x7f6076f67000
+           User_id: 419614
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:14216
+     Executing SQL: delete from bass2.stat_market_0273_detail_1 where op_time='2018-12-23'
+Executing time(ms): 5455850
+     Working State: none
+        Login time: 2019-1-17 17:5:45
+    using_conn_num: 15
+      net_in(Byte): 1103
+     net_out(Byte): 2779
+        Cluster id: 3
+*************************** 50. row ***************************
+ Thread_id_Handler: 0x7f6076f73000
+           User_id: 419911
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:49755
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 4872629
+     Working State: none
+        Login time: 2019-1-17 17:15:30
+    using_conn_num: 0
+      net_in(Byte): 54
+     net_out(Byte): 6684259
+        Cluster id: 3
+*************************** 51. row ***************************
+ Thread_id_Handler: 0x7f5f74a02000
+           User_id: 421368
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.28:39502
+     Executing SQL: delete from bass2.stat_market_broadband_bendi where op_time='2018-12-23'
+Executing time(ms): 2819872
+     Working State: none
+        Login time: 2019-1-17 17:49:43
+    using_conn_num: 1
+      net_in(Byte): 1211
+     net_out(Byte): 2011
+        Cluster id: 3
+*************************** 52. row ***************************
+ Thread_id_Handler: 0x7f5f74a4a000
+           User_id: 422040
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.28:43106
+     Executing SQL: delete from bass2.stat_market_quanliang_tongyitaocan_1 where op_time='2018-12-23'
+Executing time(ms): 1320294
+     Working State: none
+        Login time: 2019-1-17 18:14:42
+    using_conn_num: 1
+      net_in(Byte): 1220
+     net_out(Byte): 2011
+        Cluster id: 3
+*************************** 53. row ***************************
+ Thread_id_Handler: 0x7f601a6f0000
+           User_id: 422103
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:24788
+     Executing SQL: delete from bass2.stat_market_liuliangyunying_targetuser_day  where op_time='2018-12-23'
+Executing time(ms): 1178789
+     Working State: none
+        Login time: 2019-1-17 18:17:4
+    using_conn_num: 1
+      net_in(Byte): 1048
+     net_out(Byte): 2612
+        Cluster id: 3
+*************************** 54. row ***************************
+ Thread_id_Handler: 0x7f616f406000
+           User_id: 422354
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.184:55885
+     Executing SQL: load data local infile '/data1/expLoadData/bass2.stat_market_2017_fanxiang_promo_8.del' into table bass2.stat_market_2017_fanxiang_promo_8 fields terminated by '$' enclosed by '"' lines terminated by '\n' (OP_TIME,CITY_ID,COUNTY_ID,REGION_ID,DAY_CNTS,MONTH_CNTS,LEIJI_CNTS,DAY_CNTS_1,DAY_CNTS_2,DAY_CNTS_3,MONTH_CNTS_1,MONTH_CNTS_2,MONTH_CNTS_3,LEIJI_CNTS_1,LEIJI_CNTS_2,LEIJI_CNTS_3)
+Executing time(ms): 637811
+     Working State: none
+        Login time: 2019-1-17 18:26:5
+    using_conn_num: 1
+      net_in(Byte): 458
+     net_out(Byte): 1342
+        Cluster id: 3
+*************************** 55. row ***************************
+ Thread_id_Handler: 0x7f6387b08000
+           User_id: 423177
+        Cur_schema: information_schema
+         User_info: root@10.252.32.64:31623
+     Executing SQL: dbscale show user status running
+Executing time(ms): 2
+     Working State: none
+        Login time: 2019-1-17 18:36:37
+    using_conn_num: 0
+      net_in(Byte): 74
+     net_out(Byte): 1182
+        Cluster id: 3
+*************************** 56. row ***************************
+ Thread_id_Handler: 0x7f6387b1a000
+           User_id: 423180
+        Cur_schema: information_schema
+         User_info: dbscale_internal@10.252.32.83:22399
+     Executing SQL: dbscale request cluster user status running
+Executing time(ms): 1
+     Working State: none
+        Login time: 2019-1-17 18:36:43
+    using_conn_num: 0
+      net_in(Byte): 48
+     net_out(Byte): 1067
+        Cluster id: 3
+*************************** 57. row ***************************
+ Thread_id_Handler: 0x7ed75f914000
+           User_id: 397329
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.184:15147
+     Executing SQL: load data local infile '/data1/expLoadData/bass2.stat_enterprise_3jidu_jiankong_2018_5.del' into table bass2.stat_enterprise_3jidu_jiankong_2018_5 fields terminated by '$' enclosed by '"' lines terminated by '\n' (OP_TIME,ID,CNT_DAY,CNT_ALL,AMOUNT_DAY,AMOUNT_ALL)
+Executing time(ms): 57253070
+     Working State: none
+        Login time: 2019-1-17 2:42:30
+    using_conn_num: 1
+      net_in(Byte): 337
+     net_out(Byte): 1346
+        Cluster id: 2
+*************************** 58. row ***************************
+ Thread_id_Handler: 0x7f0021ea2000
+           User_id: 397369
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.35:20953
+     Executing SQL: drop table bass2.ST_VGOP4_ADDOPTLOSS_GJZYJKHMXSJ_OUTPUT_201812
+Executing time(ms): 57219698
+     Working State: none
+        Login time: 2019-1-17 2:43:3
+    using_conn_num: 3
+      net_in(Byte): 1109
+     net_out(Byte): 3689
+        Cluster id: 2
+*************************** 59. row ***************************
+ Thread_id_Handler: 0x7ed75f992000
+           User_id: 397377
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:60297
+     Executing SQL: drop table bass2.ST_VGOP_USE_TYPE_PREF_RECOG_OUTPUT_201812
+Executing time(ms): 57215649
+     Working State: none
+        Login time: 2019-1-17 2:43:7
+    using_conn_num: 3
+      net_in(Byte): 1101
+     net_out(Byte): 3689
+        Cluster id: 2
+*************************** 60. row ***************************
+ Thread_id_Handler: 0x7f09e8428000
+           User_id: 397530
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:47213
+     Executing SQL: delete from bass2.stat_market_qudaoxiaoshou_huizong_day where op_time='2018-12-23'
+Executing time(ms): 57100873
+     Working State: none
+        Login time: 2019-1-17 2:45:2
+    using_conn_num: 1
+      net_in(Byte): 1042
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 61. row ***************************
+ Thread_id_Handler: 0x7ee3ee816000
+           User_id: 397533
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:17364
+     Executing SQL: delete from bass2.STAT_DATA_0403_D_2 where op_time='2018-12-23'
+Executing time(ms): 57070768
+     Working State: none
+        Login time: 2019-1-17 2:45:3
+    using_conn_num: 15
+      net_in(Byte): 1091
+     net_out(Byte): 2781
+        Cluster id: 2
+*************************** 62. row ***************************
+ Thread_id_Handler: 0x7ee3ee822000
+           User_id: 397535
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:48549
+     Executing SQL: delete from bass2.stat_market_0445_1 where op_time='2018-12-23'
+Executing time(ms): 57098721
+     Working State: none
+        Login time: 2019-1-17 2:45:4
+    using_conn_num: 1
+      net_in(Byte): 1023
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 63. row ***************************
+ Thread_id_Handler: 0x7ee3eea95000
+           User_id: 397550
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.184:16509
+     Executing SQL: 
+delete from bass2.stat_market_0446_3 where op_time='2018-12-23'
+Executing time(ms): 57074533
+     Working State: none
+        Login time: 2019-1-17 2:45:28
+    using_conn_num: 1
+      net_in(Byte): 1161
+     net_out(Byte): 2634
+        Cluster id: 2
+*************************** 64. row ***************************
+ Thread_id_Handler: 0x7ee3ee938000
+           User_id: 410313
+        Cur_schema: information_schema
+         User_info: dbscale_internal@10.252.32.83:49058
+     Executing SQL: CREATE TABLE BASS2.STAT_MARKET_0419_DETAIL_DAY  (
+                  OP_TIME DATETIME , 
+                  CITY_ID VARCHAR(20) , 
+                  COUNTY_ID VARCHAR(20) , 
+                  REGION_ID VARCHAR(20) , 
+                  VILLAGE_ID VARCHAR(200) , 
+                  STREET_ID VARCHAR(200) , 
+                  PRODUCT_NO VARCHAR(20) , 
+                  USERLEVEL_NAME VARCHAR(20) , 
+                  USERSTATUS_NAME VARCHAR(20) , 
+                  STOPSTAUS_NAME VARCHAR(20) , 
+                  IS_XZUSER VARCHAR(20) , 
+                  NATION VARCHAR(20) , 
+                  LOCNTYPE_NAME VARCHAR(20) , 
+                  USETYPE_NAME VARCHAR(20) , 
+                  IS_ENTUSER VARCHAR(20) , 
+                  IS_IMPENTUSER VARCHAR(20) , 
+                  ENTERPRISE_NAME VARCHAR(200) , 
+                  MANAGER_NAME VARCHAR(100) , 
+                  CREATE_DATE DATETIME , 
+                  ONLINE_MON SMALLINT , 
+                  MUL_TOLL_JIFEN BIGINT , 
+                  MUL_TOLL_JIFEN1 DECIMAL(14,3) , 
+                  MUL_XINZ_JIFEN BIGINT , 
+                  MUL_XINZ_JIFEN1 DECIMAL(14,3) , 
+                  MUL_ZENGS_JIFEN BIGINT , 
+                  MUL_XIAOH_JIFEN BIGINT , 
+                  TONGFU VARCHAR(20) , 
+                  TMANYOU VARCHAR(20) , 
+                  CURMON_ARPU DECIMAL(14,2) , 
+                  LSTMON_THREE_ARPU DECIMAL(14,2) , 
+                  CURMON_FLOW_ARPU DECIMAL(14,2) , 
+                  LSTM
+Executing time(ms): 34831182
+     Working State: none
+        Login time: 2019-1-17 8:56:12
+    using_conn_num: 15
+      net_in(Byte): 2049
+     net_out(Byte): 2501
+        Cluster id: 2
+*************************** 65. row ***************************
+ Thread_id_Handler: 0x7f0021d4e000
+           User_id: 410392
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:20164
+     Executing SQL: 
+delete from bass2.stat_market_0441_5 where op_time='2018-12-23' 
+Executing time(ms): 34679176
+     Working State: none
+        Login time: 2019-1-17 8:58:43
+    using_conn_num: 1
+      net_in(Byte): 1304
+     net_out(Byte): 2656
+        Cluster id: 2
+*************************** 66. row ***************************
+ Thread_id_Handler: 0x7f0a06ee4000
+           User_id: 410818
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:21420
+     Executing SQL: delete from bass2.stat_market_gprs_arpu_wanyuan where op_time='2018-12-23'
+Executing time(ms): 33964368
+     Working State: none
+        Login time: 2019-1-17 9:10:38
+    using_conn_num: 1
+      net_in(Byte): 1034
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 67. row ***************************
+ Thread_id_Handler: 0x7ee3eeb7f000
+           User_id: 411022
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:22284
+     Executing SQL: delete from bass2.stat_market_vgop_18301_day where op_time='2018-12-23'
+Executing time(ms): 33719253
+     Working State: none
+        Login time: 2019-1-17 9:14:43
+    using_conn_num: 1
+      net_in(Byte): 1031
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 68. row ***************************
+ Thread_id_Handler: 0x7ee3ee9e8000
+           User_id: 411045
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.35:62943
+     Executing SQL: delete from bass2.STAT_MARKET_CHUDIANKEHU_DAY where op_date='2018-12-23'
+Executing time(ms): 33701845
+     Working State: none
+        Login time: 2019-1-17 9:15:1
+    using_conn_num: 1
+      net_in(Byte): 1032
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 69. row ***************************
+ Thread_id_Handler: 0x7ee3ee9a2000
+           User_id: 411047
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:51412
+     Executing SQL: delete from bass2.stat_market_jiakuanjingzeng where op_time='2018-12-23'
+Executing time(ms): 33701727
+     Working State: none
+        Login time: 2019-1-17 9:15:1
+    using_conn_num: 1
+      net_in(Byte): 1032
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 70. row ***************************
+ Thread_id_Handler: 0x7f0a314ba000
+           User_id: 411248
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:31526
+     Executing SQL: delete from bass2.stat_data_0316_detail  where op_time='2018-12-23'
+Executing time(ms): 33369377
+     Working State: none
+        Login time: 2019-1-17 9:20:33
+    using_conn_num: 1
+      net_in(Byte): 1027
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 71. row ***************************
+ Thread_id_Handler: 0x7f09e8567000
+           User_id: 411253
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.35:63795
+     Executing SQL: 
+delete from bass2.stat_lac_cell_2 where op_time='2018-12-23'
+Executing time(ms): 33365692
+     Working State: none
+        Login time: 2019-1-17 9:20:37
+    using_conn_num: 1
+      net_in(Byte): 1171
+     net_out(Byte): 2634
+        Cluster id: 2
+*************************** 72. row ***************************
+ Thread_id_Handler: 0x7f09e87e6000
+           User_id: 412134
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54851
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 32687373
+     Working State: none
+        Login time: 2019-1-17 9:31:55
+    using_conn_num: 2
+      net_in(Byte): 54
+     net_out(Byte): 28970945
+        Cluster id: 2
+*************************** 73. row ***************************
+ Thread_id_Handler: 0x7f09e86dc000
+           User_id: 412175
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:54859
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 32550517
+     Working State: none
+        Login time: 2019-1-17 9:33:0
+    using_conn_num: 2
+      net_in(Byte): 360
+     net_out(Byte): 28957871
+        Cluster id: 2
+*************************** 74. row ***************************
+ Thread_id_Handler: 0x7ed771562000
+           User_id: 412310
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40766
+     Executing SQL: truncate table BASS_4A_BANK_LOGS
+Executing time(ms): 32386233
+     Working State: none
+        Login time: 2019-1-17 9:36:56
+    using_conn_num: 1
+      net_in(Byte): 106
+     net_out(Byte): 1275
+        Cluster id: 2
+*************************** 75. row ***************************
+ Thread_id_Handler: 0x7f09e8590000
+           User_id: 412317
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40782
+     Executing SQL: truncate table NG_CEO_STAT_ENTERPRISE_0160_4
+Executing time(ms): 32382126
+     Working State: none
+        Login time: 2019-1-17 9:37:1
+    using_conn_num: 15
+      net_in(Byte): 118
+     net_out(Byte): 1407
+        Cluster id: 2
+*************************** 76. row ***************************
+ Thread_id_Handler: 0x7f09e87ee000
+           User_id: 412322
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40798
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190106
+Executing time(ms): 32377689
+     Working State: none
+        Login time: 2019-1-17 9:37:5
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 2
+*************************** 77. row ***************************
+ Thread_id_Handler: 0x7f09e86a6000
+           User_id: 412325
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40806
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190105
+Executing time(ms): 32375284
+     Working State: none
+        Login time: 2019-1-17 9:37:7
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 2
+*************************** 78. row ***************************
+ Thread_id_Handler: 0x7f0a06eb6000
+           User_id: 412328
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40816
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190111
+Executing time(ms): 32374142
+     Working State: none
+        Login time: 2019-1-17 9:37:9
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 2
+*************************** 79. row ***************************
+ Thread_id_Handler: 0x7f09e86f4000
+           User_id: 412331
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40822
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190109
+Executing time(ms): 32373715
+     Working State: none
+        Login time: 2019-1-17 9:37:9
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 2
+*************************** 80. row ***************************
+ Thread_id_Handler: 0x7f09e870b000
+           User_id: 412334
+        Cur_schema: BASS2
+         User_info: xizanguser@10.252.32.146:40830
+     Executing SQL: truncate table DW_MIGU_NEWUSER_DETAIL_20190108
+Executing time(ms): 32373469
+     Working State: none
+        Login time: 2019-1-17 9:37:9
+    using_conn_num: 15
+      net_in(Byte): 120
+     net_out(Byte): 1407
+        Cluster id: 2
+*************************** 81. row ***************************
+ Thread_id_Handler: 0x7f024b218000
+           User_id: 412699
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58206
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 31690943
+     Working State: none
+        Login time: 2019-1-17 9:48:32
+    using_conn_num: 3
+      net_in(Byte): 54
+     net_out(Byte): 31439568
+        Cluster id: 2
+*************************** 82. row ***************************
+ Thread_id_Handler: 0x7f024b08c000
+           User_id: 412701
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:59453
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 31687715
+     Working State: none
+        Login time: 2019-1-17 9:48:35
+    using_conn_num: 3
+      net_in(Byte): 54
+     net_out(Byte): 31439580
+        Cluster id: 2
+*************************** 83. row ***************************
+ Thread_id_Handler: 0x7f09e87fa000
+           User_id: 412798
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:56334
+     Executing SQL: delete from bass2.stat_market_channel_2017_qudaoxiaoshou_day where op_time='2018-12-23'
+Executing time(ms): 31511335
+     Working State: none
+        Login time: 2019-1-17 9:51:31
+    using_conn_num: 1
+      net_in(Byte): 1047
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 84. row ***************************
+ Thread_id_Handler: 0x7f024b106000
+           User_id: 413947
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:29952
+     Executing SQL: delete from bass2.stat_enterprise_info_long_day where op_time='2018-12-23'
+Executing time(ms): 29513321
+     Working State: none
+        Login time: 2019-1-17 10:24:49
+    using_conn_num: 1
+      net_in(Byte): 1034
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 85. row ***************************
+ Thread_id_Handler: 0x7f0a06f15000
+           User_id: 416040
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58218
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 26585767
+     Working State: none
+        Login time: 2019-1-17 11:13:37
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 25350251
+        Cluster id: 2
+*************************** 86. row ***************************
+ Thread_id_Handler: 0x7ed75f97a000
+           User_id: 417626
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:64702
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 24490949
+     Working State: none
+        Login time: 2019-1-17 11:48:32
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 25349827
+        Cluster id: 2
+*************************** 87. row ***************************
+ Thread_id_Handler: 0x7f024b119000
+           User_id: 420854
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:10751
+     Executing SQL: delete from bass2.ST_NG5_CUST_YZFSX5_MS
+where op_date='2018-12-01'
+Executing time(ms): 19157148
+     Working State: none
+        Login time: 2019-1-17 13:17:26
+    using_conn_num: 15
+      net_in(Byte): 1205
+     net_out(Byte): 2179
+        Cluster id: 2
+*************************** 88. row ***************************
+ Thread_id_Handler: 0x7f024b0e6000
+           User_id: 420952
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:32503
+     Executing SQL: delete from bass2.ST_NG5_CUST_YYZZYWFSX5_MS
+where op_date='2018-12-01'
+Executing time(ms): 19062980
+     Working State: none
+        Login time: 2019-1-17 13:19:0
+    using_conn_num: 15
+      net_in(Byte): 1209
+     net_out(Byte): 2179
+        Cluster id: 2
+*************************** 89. row ***************************
+ Thread_id_Handler: 0x7f06fa9ba000
+           User_id: 420987
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:54882
+     Executing SQL: drop table bass2.esop_i_sdl0211_20181223
+Executing time(ms): 19009487
+     Working State: none
+        Login time: 2019-1-17 13:19:53
+    using_conn_num: 3
+      net_in(Byte): 1244
+     net_out(Byte): 3088
+        Cluster id: 2
+*************************** 90. row ***************************
+ Thread_id_Handler: 0x7f06fa8b4000
+           User_id: 420989
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.35:49680
+     Executing SQL: drop table bass2.ST_VGOP4_OWNOPT_ZYYWNRTJ_OUTPUT_201812
+Executing time(ms): 19008375
+     Working State: none
+        Login time: 2019-1-17 13:19:54
+    using_conn_num: 3
+      net_in(Byte): 1274
+     net_out(Byte): 3088
+        Cluster id: 2
+*************************** 91. row ***************************
+ Thread_id_Handler: 0x7f0021ed9000
+           User_id: 420990
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.184:56282
+     Executing SQL: drop table bass2.ST_VGOP4_TERM_CUST_BUSI_OUTPUT_201812
+Executing time(ms): 19007450
+     Working State: none
+        Login time: 2019-1-17 13:19:55
+    using_conn_num: 3
+      net_in(Byte): 1272
+     net_out(Byte): 3088
+        Cluster id: 2
+*************************** 92. row ***************************
+ Thread_id_Handler: 0x7f0a04d3f000
+           User_id: 420999
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.184:56424
+     Executing SQL: drop table bass2.ST_VGOP4_USE_HABIT_PREFER_LABEL_OUTPUT_201812
+Executing time(ms): 18994129
+     Working State: none
+        Login time: 2019-1-17 13:20:7
+    using_conn_num: 3
+      net_in(Byte): 1288
+     net_out(Byte): 3088
+        Cluster id: 2
+*************************** 93. row ***************************
+ Thread_id_Handler: 0x7f024b28e000
+           User_id: 425039
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:50772
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 12681788
+     Working State: none
+        Login time: 2019-1-17 15:5:21
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17006101
+        Cluster id: 2
+*************************** 94. row ***************************
+ Thread_id_Handler: 0x7f06fa912000
+           User_id: 425335
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:52499
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 12072630
+     Working State: none
+        Login time: 2019-1-17 15:15:30
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 17006158
+        Cluster id: 2
+*************************** 95. row ***************************
+ Thread_id_Handler: 0x7f024b220000
+           User_id: 426732
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:57642
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 10362078
+     Working State: none
+        Login time: 2019-1-17 15:44:1
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 13415735
+        Cluster id: 2
+*************************** 96. row ***************************
+ Thread_id_Handler: 0x7f06fab69000
+           User_id: 427509
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:58636
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 8906243
+     Working State: none
+        Login time: 2019-1-17 16:8:16
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 13415397
+        Cluster id: 2
+*************************** 97. row ***************************
+ Thread_id_Handler: 0x7f06faac8000
+           User_id: 427695
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.184:32017
+     Executing SQL: /*删除41数据并导入*/
+/*3G网络用户终端情况日明细-41*/
+DROP TABLE BASS2.STAT_MARKET_2018_3GCELL_DAY_20181223
+Executing time(ms): 8506974
+     Working State: none
+        Login time: 2019-1-17 16:14:56
+    using_conn_num: 3
+      net_in(Byte): 1263
+     net_out(Byte): 2143
+        Cluster id: 2
+*************************** 98. row ***************************
+ Thread_id_Handler: 0x7f06fab45000
+           User_id: 427812
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:61253
+     Executing SQL: delete from bass2.stat_enterprise_4g_shengtou_mx_2018 where op_time='2018-12-23' or op_time<='2018-11-01'
+Executing time(ms): 8287556
+     Working State: none
+        Login time: 2019-1-17 16:18:35
+    using_conn_num: 15
+      net_in(Byte): 1065
+     net_out(Byte): 2780
+        Cluster id: 2
+*************************** 99. row ***************************
+ Thread_id_Handler: 0x7f024b3b0000
+           User_id: 430205
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:19638
+     Executing SQL: delete from bass2.STAT_ENTERPRISE_WULIANWANG13_HUIZONG_2017 where op_time='2018-12-23'
+Executing time(ms): 4636640
+     Working State: none
+        Login time: 2019-1-17 17:19:26
+    using_conn_num: 1
+      net_in(Byte): 1225
+     net_out(Byte): 2011
+        Cluster id: 2
+*************************** 100. row ***************************
+ Thread_id_Handler: 0x7ee3fd1dc000
+           User_id: 431542
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.118:40859
+     Executing SQL: /*删除41数据并导入*/
+delete from bass2.stat_market_ganendapaisong_zeropkg where op_time='2018-12-23'
+Executing time(ms): 2876637
+     Working State: none
+        Login time: 2019-1-17 17:48:46
+    using_conn_num: 1
+      net_in(Byte): 1246
+     net_out(Byte): 2011
+        Cluster id: 2
+*************************** 101. row ***************************
+ Thread_id_Handler: 0x7ee3fd176000
+           User_id: 431545
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.187:61283
+     Executing SQL: delete from bass2.stat_market_vgop_18006_day where op_time='2018-12-23'
+Executing time(ms): 2874366
+     Working State: none
+        Login time: 2019-1-17 17:48:48
+    using_conn_num: 1
+      net_in(Byte): 1210
+     net_out(Byte): 2011
+        Cluster id: 2
+*************************** 102. row ***************************
+ Thread_id_Handler: 0x7ee3fd336000
+           User_id: 431549
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.245:20710
+     Executing SQL: delete from bass2.STAT_ENTERPRISE_2018_TONGXUNLU_SHOURU_JK_dS_Dt where op_time='2018-12-23'
+Executing time(ms): 2873507
+     Working State: none
+        Login time: 2019-1-17 17:48:49
+    using_conn_num: 1
+      net_in(Byte): 1051
+     net_out(Byte): 2612
+        Cluster id: 2
+*************************** 103. row ***************************
+ Thread_id_Handler: 0x7f0021db5000
+           User_id: 432080
+        Cur_schema: bass2
+         User_info: xizanguser@10.252.58.38:55449
+     Executing SQL: SHOW TABLE STATUS
+Executing time(ms): 1706242
+     Working State: none
+        Login time: 2019-1-17 18:8:16
+    using_conn_num: 1
+      net_in(Byte): 54
+     net_out(Byte): 13415278
+        Cluster id: 2
+*************************** 104. row ***************************
+ Thread_id_Handler: 0x7f0021e19000
+           User_id: 432149
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.36.97:28338
+     Executing SQL: /*删除41数据并导入*/
+delete from bass2.stat_enterprise_entcustbaseinfo_day where op_time='2018-12-23'
+Executing time(ms): 1558730
+     Working State: none
+        Login time: 2019-1-17 18:10:44
+    using_conn_num: 1
+      net_in(Byte): 1247
+     net_out(Byte): 2011
+        Cluster id: 2
+*************************** 105. row ***************************
+ Thread_id_Handler: 0x7ee3fd3c0000
+           User_id: 433355
+        Cur_schema: dmkdb
+         User_info: xizanguser@10.252.38.28:45832
+     Executing SQL: delete from bass2.STAT_MARKET_CHANNEL_2017_ZHONGDIANJIANKONGYINGXIAO_DAY where op_time='2018-12-23'
+Executing time(ms): 129209
+     Working State: none
+        Login time: 2019-1-17 18:34:33
+    using_conn_num: 1
+      net_in(Byte): 1238
+     net_out(Byte): 2011
+        Cluster id: 2
+*************************** 106. row ***************************
+ Thread_id_Handler: 0x7ed4cd4b2000
+           User_id: 433419
+        Cur_schema: information_schema
+         User_info: dbscale_internal@10.252.32.83:25912
+     Executing SQL: dbscale request cluster user status running
+Executing time(ms): 0
+     Working State: none
+        Login time: 2019-1-17 18:36:43
+    using_conn_num: 0
+      net_in(Byte): 48
+     net_out(Byte): 1067
+        Cluster id: 2
+106 rows in set (0.02 sec)

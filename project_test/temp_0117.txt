@@ -1,0 +1,779 @@
+select count(*) from bass2.stat_enterprise_0285_detail
+--------------
+
++----------+
+| count(*) |
++----------+
+|  2549763 |
++----------+
+1 row in set (3.43 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_0285
+--------------
+
++----------+
+| count(*) |
++----------+
+|     3099 |
++----------+
+1 row in set (0.00 sec)
+
+--------------
+select count(*) from bass2.STAT_MARKET_HONGBAOYU_QHB_2018
+--------------
+
++----------+
+| count(*) |
++----------+
+|    39077 |
++----------+
+1 row in set (0.10 sec)
+
+--------------
+select count(*) from bass2.stat_market_gudingliuliang_2018
+--------------
+
++----------+
+| count(*) |
++----------+
+|   476091 |
++----------+
+1 row in set (0.69 sec)
+
+--------------
+select count(*) from bass2.report_moni_2018_alarm_remove
+--------------
+
++----------+
+| count(*) |
++----------+
+|    92746 |
++----------+
+1 row in set (0.35 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_0067
+--------------
+
++----------+
+| count(*) |
++----------+
+|    72993 |
++----------+
+1 row in set (0.17 sec)
+
+--------------
+select count(*) from bass2.stat_market_0425
+--------------
+
++----------+
+| count(*) |
++----------+
+|   249816 |
++----------+
+1 row in set (1.94 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_0068
+--------------
+
++----------+
+| count(*) |
++----------+
+|     2336 |
++----------+
+1 row in set (0.05 sec)
+
+--------------
+select count(*) from bass2.stat_ecustsvc_0036_lism_helin
+--------------
+
++----------+
+| count(*) |
++----------+
+|      536 |
++----------+
+1 row in set (0.02 sec)
+
+--------------
+select count(*) from bass2.stat_market_0621_2
+--------------
+
++----------+
+| count(*) |
++----------+
+|    79324 |
++----------+
+1 row in set (0.16 sec)
+
+--------------
+select count(*) from bass2.STAT_DATA_0403_D_1_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|  2258256 |
++----------+
+1 row in set (2.55 sec)
+
+--------------
+select count(*) from bass2.STAT_DATA_0403_D_2_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|  8489009 |
++----------+
+1 row in set (5.98 sec)
+
+--------------
+select count(*) from bass2.stat_data_0403_m_1_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|    73320 |
++----------+
+1 row in set (0.11 sec)
+
+--------------
+select count(*) from bass2.stat_data_0403_m_2_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   282884 |
++----------+
+1 row in set (0.23 sec)
+
+--------------
+select count(*) from bass2.STAT_DATA_0403_D_1_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|  2258256 |
++----------+
+1 row in set (0.68 sec)
+
+--------------
+select count(*) from bass2.STAT_DATA_0403_D_2_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|  8489009 |
++----------+
+1 row in set (2.77 sec)
+
+--------------
+select count(*) from bass2.stat_market_gudinghuafei_2018
+--------------
+
++----------+
+| count(*) |
++----------+
+|        1 |
++----------+
+1 row in set (0.03 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_day_pianqu_memberoff_detail_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|    67238 |
++----------+
+1 row in set (0.11 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_day_pianqu_info_detail_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   891082 |
++----------+
+1 row in set (0.44 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_day_pianqu_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   108016 |
++----------+
+1 row in set (0.10 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_jiakuan_laojing_1
+--------------
+
++----------+
+| count(*) |
++----------+
+|    97984 |
++----------+
+1 row in set (0.22 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_jiakuan_laojing_2
+--------------
+
++----------+
+| count(*) |
++----------+
+|    96904 |
++----------+
+1 row in set (0.19 sec)
+
+--------------
+select count(*) from bass2.stat_market_ser002
+--------------
+
++----------+
+| count(*) |
++----------+
+|    29399 |
++----------+
+1 row in set (0.15 sec)
+
+--------------
+select count(*) from bass2.ST_NG5_RES_CELL_INFO_ms
+--------------
+
++----------+
+| count(*) |
++----------+
+|  1995642 |
++----------+
+1 row in set (2.17 sec)
+
+--------------
+select count(*) from bass2.ST_NG5_RES_SELFHOLD_OP_BENIFIT_ms
+--------------
+
++----------+
+| count(*) |
++----------+
+|     2660 |
++----------+
+1 row in set (0.10 sec)
+
+--------------
+select count(*) from bass2.STAT_ENTERPRISE_ISMG_SEND_2018
+--------------
+
++----------+
+| count(*) |
++----------+
+|       11 |
++----------+
+1 row in set (0.03 sec)
+
+--------------
+select count(*) from bass2.yth_stat_promo_model_detail
+--------------
+
++----------+
+| count(*) |
++----------+
+| 64309631 |
++----------+
+1 row in set (29.11 sec)
+
+--------------
+select count(*) from bass2.yth_stat_promo_model
+--------------
+
++----------+
+| count(*) |
++----------+
+|   488632 |
++----------+
+1 row in set (0.61 sec)
+
+--------------
+select count(*) from bass2.st_ng5_res_term_choose_ms
+--------------
+
++----------+
+| count(*) |
++----------+
+|  1320085 |
++----------+
+1 row in set (0.84 sec)
+
+--------------
+select count(*) from bass2.stat_report_customer_service_sys
+--------------
+
++----------+
+| count(*) |
++----------+
+|    27491 |
++----------+
+1 row in set (0.14 sec)
+
+--------------
+select count(*) from bass2.stat_acct_promo_zkzr_total
+--------------
+
++----------+
+| count(*) |
++----------+
+|    90447 |
++----------+
+1 row in set (0.15 sec)
+
+--------------
+select count(*) from bass2.ST_NG5_RES_RNAME_CUST_ALARM_MS
+--------------
+
++----------+
+| count(*) |
++----------+
+|   585369 |
++----------+
+1 row in set (0.68 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_1
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.18 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_2
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.17 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_3
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.24 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_4
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.21 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_5
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.34 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_6
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.16 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_7
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.26 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_8
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.19 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_fanxiang_promo_9
+--------------
+
++----------+
+| count(*) |
++----------+
+|    91735 |
++----------+
+1 row in set (0.15 sec)
+
+--------------
+select count(*) from bass2.stat_market_newuser_2018
+--------------
+
++----------+
+| count(*) |
++----------+
+|   431832 |
++----------+
+1 row in set (0.59 sec)
+
+--------------
+select count(*) from bass2.STAT_REPORT_CUSTOMER_SERVICE_ALL
+--------------
+
++----------+
+| count(*) |
++----------+
+|    27491 |
++----------+
+1 row in set (0.18 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_0060_b_2013_1_ceo891
+--------------
+
++----------+
+| count(*) |
++----------+
+|   223820 |
++----------+
+1 row in set (0.14 sec)
+
+--------------
+select count(*) from bass2.ceo_stat_enterprise_0060_d_2013_1_jichu_new
+--------------
+
++----------+
+| count(*) |
++----------+
+|   553570 |
++----------+
+1 row in set (0.60 sec)
+
+--------------
+select count(*) from bass2.ceo_stat_enterprise_0282_detail
+--------------
+
++----------+
+| count(*) |
++----------+
+|   553570 |
++----------+
+1 row in set (0.39 sec)
+
+--------------
+select count(*) from bass2.ceo_stat_enterprise_0282_info
+--------------
+
++----------+
+| count(*) |
++----------+
+|      304 |
++----------+
+1 row in set (0.05 sec)
+
+--------------
+select count(*) from bass2.ceo_stat_enterprise_0282_info_detail
+--------------
+
++----------+
+| count(*) |
++----------+
+|   553606 |
++----------+
+1 row in set (0.63 sec)
+
+--------------
+select count(*) from bass2.ceo_stat_enterprise_0282_jtzx
+--------------
+
++----------+
+| count(*) |
++----------+
+|      304 |
++----------+
+1 row in set (0.06 sec)
+
+--------------
+select count(*) from bass2.ceo_stat_enterprise_0282_jtzx_detail
+--------------
+
++----------+
+| count(*) |
++----------+
+|   553606 |
++----------+
+1 row in set (1.26 sec)
+
+--------------
+select count(*) from bass2.stat_enterprise_0160_2_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|     3546 |
++----------+
+1 row in set (0.07 sec)
+
+--------------
+select count(*) from bass2.stat_market_owe_user_county_final
+--------------
+
++----------+
+| count(*) |
++----------+
+|     3061 |
++----------+
+1 row in set (0.08 sec)
+
+--------------
+select count(*) from bass2.stat_market_owe_user_city_final
+--------------
+
++----------+
+| count(*) |
++----------+
+|      296 |
++----------+
+1 row in set (0.04 sec)
+
+--------------
+select count(*) from bass2.stat_market_0424_owe_user_total
+--------------
+
++----------+
+| count(*) |
++----------+
+|     2007 |
++----------+
+1 row in set (0.29 sec)
+
+--------------
+select count(*) from bass2.stat_market_cust_0001
+--------------
+
++----------+
+| count(*) |
++----------+
+|   126074 |
++----------+
+1 row in set (0.38 sec)
+
+--------------
+select count(*) from bass2.st_ng5_res_selfhold_op_busi_link_ms
+--------------
+
++----------+
+| count(*) |
++----------+
+|     1778 |
++----------+
+1 row in set (0.06 sec)
+
+--------------
+select count(*) from bass2.stat_active_user_mou_lvl_mon
+--------------
+
++----------+
+| count(*) |
++----------+
+|   137798 |
++----------+
+1 row in set (0.27 sec)
+
+--------------
+select count(*) from bass2.stat_market_tongji_4gplan_ms
+--------------
+
++----------+
+| count(*) |
++----------+
+|    68361 |
++----------+
+1 row in set (0.19 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_zhuanxiang_laojing_1
+--------------
+
++----------+
+| count(*) |
++----------+
+|    95032 |
++----------+
+1 row in set (0.17 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_zhuanxiang_laojing_2
+--------------
+
++----------+
+| count(*) |
++----------+
+|    95263 |
++----------+
+1 row in set (0.19 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_zhuanxiang_laojing_3
+--------------
+
++----------+
+| count(*) |
++----------+
+|    82151 |
++----------+
+1 row in set (0.13 sec)
+
+--------------
+select count(*) from bass2.stat_market_2017_zhuanxiang_laojing_3_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|    82148 |
++----------+
+1 row in set (0.27 sec)
+
+--------------
+select count(*) from bass2.STAT_DATA_0213_FLOW_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|  4674996 |
++----------+
+1 row in set (2.90 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_891_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   646542 |
++----------+
+1 row in set (0.54 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_892_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|  1044414 |
++----------+
+1 row in set (0.98 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_893_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   746010 |
++----------+
+1 row in set (0.65 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_894_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   447606 |
++----------+
+1 row in set (0.40 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_895_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   646542 |
++----------+
+1 row in set (0.54 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_896_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   646542 |
++----------+
+1 row in set (0.68 sec)
+
+--------------
+select count(*) from bass2.stat_data_0213_flow_897_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   447606 |
++----------+
+1 row in set (0.33 sec)
+
+--------------
+select count(*) from bass2.stat_market_mms_new_ceo
+--------------
+
++----------+
+| count(*) |
++----------+
+|   521136 |
++----------+
+1 row in set (0.39 sec)
